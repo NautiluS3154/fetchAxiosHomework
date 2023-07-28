@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { DatePage } from './pages/DatePage'
+import { GetPage } from './pages/GetPage';
+import { PutPage } from './pages/PutPage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/* <DatePage />
+        <div className='ppp'></div>
+        <GetPage /> */}
+        <PutPage />
     </div>
   );
 }
